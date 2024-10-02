@@ -16,3 +16,11 @@
 - Ensure to:
   - Update the **UserID** and **Password** in the connection string.
   - Remove any trailing `/` at the end of the URL.
+
+### [DataBase Design](https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj)
+
+## Added the models
+
+- Added the different schema using mongoose like comments, user, video etc.
+- install the package `mongoose-aggregate-paginate-v2` for aggregation
+- added aggregation in video and comment model
