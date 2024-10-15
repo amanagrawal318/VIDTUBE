@@ -1,4 +1,4 @@
-import registerUser from "../controllers/user.controllers.js";
+import { registerUser, loginUser } from "../controllers/user.controllers.js";
 import { Router } from "express";
 import { upload } from "../middlewares/multer.middleware.js";
 
@@ -11,5 +11,6 @@ router.route("/register").post(
   ]),
   registerUser
 );
+router.route("/login").post(loginUser);
 
 export { router };
